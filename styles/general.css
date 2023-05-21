@@ -6,13 +6,6 @@ body {
   justify-content: space-between;
 }
 
-.parent-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-}
-
 /* body div,
 .header div,
 .one div {
@@ -30,7 +23,6 @@ body {
   font-size: 24px;
   font-weight: 550;
   color: #F9FAF8;
-
 }
 
 ul {
@@ -41,22 +33,17 @@ ul {
   color: #E5E7EB;
 }
 
-.header-link {
-  
-}
 
 .one {
   background-color: #1F2937;
   display: flex;
-
 }
 
 
 .hero-main {
   font-size: 48px;
   font-weight: 700;
-  color: #F9FAF8;
-  
+  color: #F9FAF8;  
 }
 
 .hero-secondary {
@@ -69,7 +56,6 @@ button {
   border: none;
   padding: 5px 20px;
   border-radius: 5px;
-
 }
 
 .hero-image {
@@ -84,8 +70,7 @@ button {
 .three-quote {
   font-size: 36px;
   font-style: italic;
-  color: #1F2937;
-  
+  color: #1F2937;  
 }
 
 .three-author {
@@ -100,8 +85,7 @@ button {
   background-color: #3882F6;
   color: #F9FAF8;
   display: flex;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 .four-button {
