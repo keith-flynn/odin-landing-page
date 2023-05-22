@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -19,6 +20,7 @@ body {
 } */
 
 .header {
+  width: 100%;
   display: flex;
   background-color: #1F2937;
   align-items: center;
@@ -39,17 +41,23 @@ ul {
   color: #E5E7EB;
 }
 
+.main-child {
+  flex: 1 1 auto;
+}
+
 
 .one {
   background-color: #1F2937;
+  width: 100%;
   display: flex;
+
 }
 
 
 .hero-main {
   font-size: 48px;
   font-weight: 700;
-  color: #F9FAF8;  
+  color: #F9FAF8;
 }
 
 .hero-secondary {
@@ -64,6 +72,20 @@ button {
   border-radius: 5px;
 }
 
+.hero-left,
+.hero-image {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .hero-image {
   background-color: gray;
 }
@@ -71,12 +93,14 @@ button {
 
 .three {
   background-color: #E5E7EB;
+  width: 100%;
 }
 
 .three-quote {
   font-size: 36px;
   font-style: italic;
-  color: #1F2937;  
+  color: #1F2937;
+  
 }
 
 .three-author {
@@ -91,7 +115,10 @@ button {
   background-color: #3882F6;
   color: #F9FAF8;
   display: flex;
-  align-items: center;  
+  align-items: center;
+  padding: 64px 150px;
+  border-radius: 10px;
+  
 }
 
 .four-button {
@@ -103,7 +130,8 @@ button {
   background-color: #1F2937;
   color: #E5E7EB;
   height: 120px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
 }
