@@ -21,11 +21,14 @@ body {
 
 .header {
   width: 100%;
-  display: flex;
   background-color: #1F2937;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  
 }
+
+/* container for a container */
 
 .header-logo {
   font-size: 24px;
@@ -33,12 +36,18 @@ body {
   color: #F9FAF8;
 }
 
-ul {
+.header-link {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   font-size: 18px;
   color: #E5E7EB;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-link-child {
+  padding-left: 25px;
 }
 
 .main-child {
@@ -51,6 +60,13 @@ ul {
   width: 100%;
   display: flex;
 
+}
+
+.one-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 200px;
 }
 
 
@@ -72,6 +88,10 @@ button {
   border-radius: 5px;
 }
 
+.css-button {
+  margin-top: 10px;
+}
+
 .hero-left,
 .hero-image {
   display: flex;
@@ -88,12 +108,19 @@ button {
 
 .hero-image {
   background-color: gray;
+  padding: 115px 35px;
+  color: white;
 }
 
 
 .three {
   background-color: #E5E7EB;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 230px
+  
 }
 
 .three-quote {
@@ -101,35 +128,42 @@ button {
   font-style: italic;
   color: #1F2937;
   
+  
 }
 
 .three-author {
   font-size: 18px;
   font-weight: bold;
-  display: flex;
-  justify-content: flex-end;
+  align-self: flex-end;
+  
 }
 
 .four {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four-container {
   background-color: #3882F6;
   color: #F9FAF8;
   display: flex;
   align-items: center;
   padding: 64px 150px;
   border-radius: 10px;
-  
+    
 }
 
 .four-button {
   border: 1px solid #F9FAF8;
   border-radius: 5px;
+  
 }
 
 .footer {
   background-color: #1F2937;
   color: #E5E7EB;
-  height: 120px;
+  height: 100px;
   width: 100%;
   display: flex;
   align-items: center;
