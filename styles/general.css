@@ -112,6 +112,49 @@ button {
   color: white;
 }
 
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.two-top {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.two-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.two-bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.two-bottom-image-container {
+  border: 3px solid #3882F6;
+  border-radius: 9px;
+  height: 110px;
+  width: 110px;
+  padding: 10px;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.two-bottom-text {
+  width: 103px;
+  font-size: 13px;
+  margin-top: 7px;
+}
+
 
 .three {
   background-color: #E5E7EB;
@@ -119,7 +162,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 230px
+  padding: 0 20%;
   
 }
 
@@ -142,6 +185,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .four-container {
@@ -149,15 +193,31 @@ button {
   color: #F9FAF8;
   display: flex;
   align-items: center;
-  padding: 64px 150px;
+  justify-content: space-around;
+  /* padding: 64px 150px; */
   border-radius: 10px;
+  padding: 5% 15%;
+  width: 45%;
     
+}
+
+.four-text {
+  width: 80%;
+}
+
+.four-big-text {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.four-small-text {
+  font-size: 14px;
 }
 
 .four-button {
   border: 1px solid #F9FAF8;
   border-radius: 5px;
-  
+    
 }
 
 .footer {
